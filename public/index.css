@@ -1,0 +1,64 @@
+.nav-wrapper {
+    padding: 0 2rem;
+}
+.price {
+    font-size: 2rem;
+}
+
+.course {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course h1 {
+    margin-bottom: 2rem;
+}
+
+.course img {
+    max-width: 600px;
+    height: auto;
+}
+
+.course .price.big {
+    font-size: 2.5rem;
+}
+
+.custom-action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.custom-action a {
+    font-size: 13px;
+}
+
+.form-action {
+    width: 100%;
+}
+
+.form-action button {
+    width: inherit;
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+.card-image {
+    text-align: center;
+}
+
+.card-image img {
+    max-width: 200px;
+    margin: 0 auto;
+}
